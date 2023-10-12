@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мій простий сайт</title>
+</head>
+<body>
+    <h1>Ласкаво просимо на мій сайт</h1>
+    
+    <h2>Про мене:</h2>
+    <ul>
+        <li>Мене звати Побережник Даша </li>
+        <li>Мені 17</li>
+        <li>Я навчаюсь у ВНТУ</li>
+    </ul>
+    <h2>Таблиця:</h2>
+    <table border="1">
+        <tr>
+            <th>Хобі</th>
+            <th>Досягнення</th>
+        </tr>
+        <tr>
+            <td> Танці</td>
+            <td> КМС з Худ.Гімнастики</td>
+        </tr>
+        <tr>
+            <td>Малювання</td>
+            <td>Золота медалістка школи</td>
+        </tr>
+    </table>
+    <h2>Собачка мрії:</h2>
+    <img src="https://images.prismic.io/doge/da4af5cc-a83a-4e69-aab3-828bea1bf73d_maltipu-13.jpg?auto=compress,format&rect=0,0,1024,1024&w=400&h=400" width="340" height="370">
+    
+    <h2>Відео моєї танцювальної команди зі світового чемпу:</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=QOUCmnIc4hw&feature=youtu.be" frameborder="2" allowfullscreen></iframe>
+</body>
+</html>
