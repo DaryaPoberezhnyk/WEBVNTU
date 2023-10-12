@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мій простий сайт</title>
+    <style>
+        /* Стилі для блоків */
+        .container {
+            display: flex;
+        }
+
+        .sidebar {
+            flex-grow: 1;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+
+        .main-content {
+            flex-grow: 3;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Верхній колонтитул -->
+        <h1>Ласкаво просимо на мій сайт</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Про мене</a></li>
+                <li><a href="about.html">Про сайт</a></li>
+                <li><a href="links.html">Таблиця</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Ліва бокова колонка -->
+        <div class="sidebar">
+            <h2>Про мене:</h2>
+            <ul>
+                <li>Мене звати Побережник Даша</li>
+                <li>Мені 17</li>
+                <li>Я навчаюсь у ВНТУ</li>
+            </ul>
+        </div>
+
+        <!-- Основний вміст -->
+        <div class="main-content">
+            <h2>Таблиця:</h2>
+             <table border="1">
+        <tr>
+            <th>Хобі</th>
+            <th>Досягнення</th>
+        </tr>
+        <tr>
+            <td> Танці</td>
+            <td> КМС з Худ.Гімнастики</td>
+        </tr>
+        <tr>
+            <td>Малювання</td>
+            <td>Золота медалістка школи</td>
+        </tr>
+    </table>
+
+            
+    <footer>
+        <!-- Нижній колонтитул -->
+        <h2>Собачка мрії:</h2>
+
+            <img src="https://images.prismic.io/doge/da4af5cc-a83a-4e69-aab3-828bea1bf73d_maltipu-13.jpg?auto=compress,format&rect=0,0,1024,1024&w=400&h=400" width="340" height="370">
+
+            <h2>Відео моєї танцювальної команди зі світового чемпу:</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QOUCmnIc4hw" allowfullscreen></iframe>
+         </div>
+        
+    </div>
+
+        <p>© 2023 Мій простий сайт</p>
+    </footer>
+</body>
+</html>
